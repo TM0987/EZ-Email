@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">easyemail</string>
+    <string name="header">EZ Email:<br></br>Email Writing Assistant</string>
+    <string name="appdescription">The EZ Email email writing assistant is your toolkit for preparing confident emails as a student.<br></br>
+        Click continue to gain access to email writing tips and templates tailored to a variety of topics.
+    </string>
+
+
+    <string-array name="categories">
+        <item>Content Help</item>
+        <item>Grades</item>
+        <item>Employment/Work Opportunity</item>
+        <item>Class Issues</item>
+        <item>Other</item>
+    </string-array>
+</resources>

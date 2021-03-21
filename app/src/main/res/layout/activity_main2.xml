@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171717"
+    tools:context=".MainActivity2">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/stars_galaxy_milky_way_starry_sky_night_sky_119125_800x1420">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/txtTips"
+          android:layout_width="295dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="180dp"
+          android:layout_marginLeft="180dp"
+          android:layout_marginTop="24dp"
+          android:layout_marginEnd="173dp"
+          android:layout_marginRight="173dp"
+          android:layout_marginBottom="24dp"
+          android:background="#2C8B9C"
+          android:fontFamily="@font/iceberg"
+          android:padding="8dp"
+          android:text="TextView"
+          android:textColor="#FFFFFF"
+          android:textSize="16sp" />
+
+      <androidx.appcompat.widget.AppCompatSpinner
+          android:id="@+id/spinner"
+          android:layout_width="225dp"
+          android:layout_height="38dp"
+          android:layout_gravity="center"
+          android:layout_marginStart="181dp"
+          android:layout_marginLeft="181dp"
+          android:layout_marginTop="24dp"
+          android:layout_marginEnd="182dp"
+          android:layout_marginRight="182dp"
+          android:layout_marginBottom="24dp"
+          android:background="#FFFFFF"
+          android:gravity="center" />
+
+      <Button
+          android:id="@+id/btnContinueUnfixed"
+          android:layout_width="225dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginStart="159dp"
+          android:layout_marginLeft="159dp"
+          android:layout_marginTop="24dp"
+          android:layout_marginEnd="159dp"
+          android:layout_marginRight="159dp"
+          android:layout_marginBottom="134dp"
+          android:fontFamily="@font/iceberg"
+          android:padding="8dp"
+          android:textAllCaps="false"
+          android:textColor="#FFFFFF" />
+    </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

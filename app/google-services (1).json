@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "50842956942",
+    "firebase_url": "https://easy-email-cff11-default-rtdb.firebaseio.com",
+    "project_id": "easy-email-cff11",
+    "storage_bucket": "easy-email-cff11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50842956942:android:18eba1b4a6f6678810c5df",
+        "android_client_info": {
+          "package_name": "com.example.easyemail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50842956942-cnj9tm0i9ua30a9upj6snnkqjm6ho0km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtlEOAgEB5i2BJOcGPzx5OWzpM2oMX6VM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50842956942-cnj9tm0i9ua30a9upj6snnkqjm6ho0km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
